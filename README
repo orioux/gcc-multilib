@@ -1,0 +1,1 @@
+sudo  docker run --rm -v "$PWD":/usr/src/workspace -w /usr/src/workspace 317c14d60e8e g++ -m32 -o helloworld helloworld.cpp
